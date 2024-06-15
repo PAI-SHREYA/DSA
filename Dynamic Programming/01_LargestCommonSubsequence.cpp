@@ -1,3 +1,13 @@
+/*
+Given 2 strings s1 and s2 we need to find the length of the largest common subsequence.
+For example:
+In s1="abcd" and s2="ad" The common subsequnces are "a" , "ad" and "d". Out of "ad" with length 2 is the longest.
+
+The following code have following time and space complexity:
+  Time O(n * m)
+  Space O(m)
+  where n=length of first string and m=length of second string.
+ */
 #include<iostream>
 using namespace std;
  int longestCommonSubsequence(string text1, string text2) {
