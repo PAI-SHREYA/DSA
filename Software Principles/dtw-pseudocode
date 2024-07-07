@@ -1,3 +1,5 @@
+Source: https://en.wikipedia.org/wiki/Dynamic_time_warping
+
 int DTWDistance(s: array [1..n], t: array [1..m], w: int) {
     DTW := array [0..n, 0..m]
 
